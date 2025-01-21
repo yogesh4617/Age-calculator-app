@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="container">
+      <form>
+      
+        <div class="innerbox1">
+
+          <div class="block">
+            <label for="day">day</label>
+            <input type="number" id="day" placeholder="DD">
+            <small class="error1"></small>
+          </div>
+
+          <div class="block">
+            <label for="month">Month</label>
+            <input type="number" id="month" placeholder="MM">
+            <small class="error2"></small>
+          </div>
+
+          <div class="block">
+            <label for="year">Year</label>
+            <input type="number" id="year" placeholder="YYYY">
+            <small class="error3"></small>
+          </div>
+
+        </div>
+
+        <button class="btn" id="btn1" type="submit"></button>
+
+      </form>
+      
+      <div class="innerbox2">
+        <h1 class="clnber" >
+          <span id="YY">--</span>
+          years
+        </h1>
+        <h1 class="clnber">
+          <span id="MM">--</span>
+          months
+        </h1>
+        <h1 class="clnber">
+          <span id="DD">--</span>
+          days
+        </h1>
+      </div>
+      
+    </div>
+  </div>
+  <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Yogesh Ulaganathan</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
